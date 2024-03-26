@@ -1,0 +1,29 @@
+/* Pseudo Class */
+
+a{
+    color: black;
+    font-size: 1.5em;
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    border: 1px blue solid;
+}
+a:hover{
+    background-color: white;
+    color: blue;
+    
+}
+a:active{
+    background-color: green;
+    color: white;
+}
+
+input{
+    margin-top: 50px;
+    width: 50%;
+    height: 50px;
+    border-radius: 50px;
+    outline: 0;
+}

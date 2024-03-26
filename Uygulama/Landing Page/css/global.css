@@ -1,0 +1,44 @@
+.head-small{
+    font-size: 1.25rem;
+}
+.head-medium{
+    font-size: 1.5rem;
+}
+.head-big{
+    font-size: 1.75rem;
+}
+
+.bg-dark1{
+    background-color: #272727;
+}
+.bg-dark2{
+    background-color: #222;
+}
+.bg-dark3{
+    background-color: #333;
+}
+
+.container{
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.btn-rules{
+    margin-top: 2rem;
+}
+.btn{
+    margin-top: 1.25rem;
+    padding: 0.8rem 3rem;
+    border-radius: 7px;
+    letter-spacing: 0.5px;
+}
+.btn-primary{
+    background: ghostwhite;
+    color: black;
+    border: 1px ghostwhite solid;
+}
+.btn-primary:hover{
+    background: gray;
+    color: ghostwhite;
+    border: 1px ghostwhite solid;
+}

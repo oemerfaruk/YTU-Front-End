@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.hd-big{
+    text-align: center;
+    font-size: 3rem;
+    color: #333;
+}
+
+.btn{
+    display: inline-block;
+
+    padding: 1rem;
+    border-radius: 5px;
+
+    text-decoration: none;
+    font-family:sans-serif;
+}
+.btn-blue{
+    border: 1px blue solid;
+    background-color: blue;
+    color: aliceblue;
+}
+.btn-blue:hover{
+    background-color: aliceblue;
+    color: blue;
+}
+.btn-orange{
+    border: 1px orange solid;
+    background-color: orange;
+    color: red;
+}
+.btn-orange:hover{
+    background-color: red;
+    color: orange;
+}
+
+
+p{
+    text-align: justify;
+    font-size: 1.5rem;
+    letter-spacing: 0.25rem;
+
+}
+
+.card{
+    max-width: 25%;
+
+    border: 1px black solid;
+    border-radius: 10px;
+}
+.card .title{
+    cursor:crosshair;
+    border: 1px black solid;
+    border-radius: 10px;
+}
+.card .info{
+    margin-top: 2rem;
+    cursor:context-menu;
+    border: 1px black solid;
+    border-radius: 10px;
+}

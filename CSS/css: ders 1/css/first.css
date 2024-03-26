@@ -1,0 +1,60 @@
+*{
+    background-color: beige;
+    /* text-align: center; */
+    font-family: "inter";
+}
+
+body{
+    text-align: right;
+}
+
+
+
+p{
+    color: rgba(0, 0, 0, 0.5);
+    background-color: #fff;
+}
+
+
+/*
+Başlık sınıflarının tanımlanması
+*/
+.head{
+    text-align: center;
+    color: red;
+}
+.head-big{
+    font-size: large;
+    font-weight: 900;
+    
+}
+.head-medium{
+    font-size: medium;
+    font-weight: 800;
+}
+.head-small{
+    font-size: small;
+    font-weight: 600;
+}
+
+/*
+article*/
+
+.art{
+    background-color: azure;
+    font-family: "serif";
+
+}
+
+.art p{
+    /* text-align: left; */
+    text-decoration: underline;
+}
+
+
+span{
+    color:red;
+    font-weight: 900;
+    
+    background-color: aquamarine;
+}

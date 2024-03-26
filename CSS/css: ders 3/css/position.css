@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box-red{
+    position: absolute;
+    background-color: red;
+    width: 200px;
+    height: 200px;
+    z-index: 2;
+}
+.box-green{
+    position: absolute;
+    margin: 75px;
+    background-color: green;
+    width: 150px;
+    height: 150px;
+    z-index: 0;
+
+}
+
+.box-blue{
+    position: absolute;
+    margin: 150px;
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    z-index: 1;
+}

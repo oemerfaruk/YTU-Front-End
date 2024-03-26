@@ -1,0 +1,30 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+/* Inline-Block */
+a{
+    width: 200px;
+    background-color: blue;
+    color: white;
+
+    display: inline-block;
+    border-radius: 5px;
+    text-align: center;
+}
+
+/* Overflow */
+
+.text-box{
+    width: 500px;
+    height: 700px;
+
+    border: 2px red solid;
+    border-radius: 5px;
+
+    text-align: center;
+
+    overflow: auto;
+}

@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+
+    .btn{
+        @apply py-1 px-3 rounded-md border border-red-300;
+    }
+
+    .dark-bg-100{
+        @apply dark:bg-dark-100 dark:transition-all;
+    }
+}

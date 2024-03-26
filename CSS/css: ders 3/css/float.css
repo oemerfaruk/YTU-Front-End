@@ -1,0 +1,10 @@
+.img-l{
+    width: 300px;
+    float: left;
+    margin-right: 10px;
+}
+.img-r{
+    width: 300px;
+    float: right;
+    margin-left: 10px;
+}

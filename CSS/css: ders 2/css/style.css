@@ -1,0 +1,43 @@
+*{
+    font-family: sans-serif;
+}
+body{
+    background-color: beige;
+}
+
+.new{
+    width: 500px;
+    border: 1px black solid;
+    border-radius: 5px;
+    background-color: antiquewhite;
+    display: block;
+    margin: auto;
+}
+
+.head{
+    text-align: center;
+    color: red;
+}
+p{
+    font-size: 20px;
+    line-height: 25px;
+    letter-spacing: 2px;
+    text-align: justify;
+}
+span{
+    font-size: .75em;
+    letter-spacing: 1px;
+    font-style: italic;
+    font-weight: bolder;
+    color: tomato;
+    text-decoration: underline;
+}
+img{
+    width: 50%;
+    display: block;
+    margin: auto;
+    border-radius: 25px;
+    
+}img:hover{
+    border: 2px red solid;
+}

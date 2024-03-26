@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 75%;
+    min-height: 300px;
+    margin: 0 auto;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+
+
+
+    background-color: black;
+}
+
+.box{
+    height: 200px;
+    background-color: aliceblue;
+    border: 2px red solid;
+    margin: 10px;
+}
+.box-1{
+    flex-grow: 1;
+}
+.box-2{
+    flex-grow: 2;
+}
+.box-3{
+    flex: auto;
+    flex-grow: 3;
+    align-items: flex-end;
+}

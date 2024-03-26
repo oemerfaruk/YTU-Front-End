@@ -1,0 +1,41 @@
+table, tr, td, th{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+table{
+    width: 75%;
+    margin: 0 auto;
+    font-size: 1.25rem;
+}
+
+th, td{
+    padding: 5px;
+}
+
+thead tr{
+    background-color: green;
+    color: white;
+}
+tbody tr{
+    text-align: center;
+}
+tbody tr:nth-child(even){
+    background-color: aliceblue;
+}
+tbody tr:nth-child(odd){
+    background-color: #ddd;
+}
+
+tbody tr:hover{
+    background-color: cadetblue;
+    color: aliceblue;
+}
+tbody tr td:hover{
+    background-color: blue;
+    color: white;
+}
+tbody tr td:active{
+    background-color: red;
+    color: white;
+}

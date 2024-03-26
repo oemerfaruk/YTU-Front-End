@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ömer Faruk Aydın</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body class="flex flex-col">
+    <header class="w-full h-16 flex items-center bg-white dark:bg-dark-100 dark:transition-all transition-all">
+        <div class="container mx-auto">
+            <nav id="navbar" class="flex justify-between px-3 text-gray-700 dark:text-white dark:transition-all transition-al">
+                <h1 class="text-2xl">Ömer Faruk Aydın</h1>
+                <ul class="flex items-center">
+                    <li><a href="#" class="px-4 py-2 hover:bg-gray-700 hover:text-white hover:rounded">Hakkımda</a></li>
+                    <li><a href="#" class="px-4 py-2 hover:bg-gray-700 hover:text-white hover:rounded">Bilgi</a></li>
+                    <li><a href="#" class="px-4 py-2 hover:bg-gray-700 hover:text-white hover:rounded">Projeler</a></li>
+                    <div class="ml-2">
+                        <button onclick="darkMode()" class=" bg-gray-800 hover:bg-gray-700 text-white text-sm h-10 rounded flex justify-between items-center px-4 min-w-[132px]">
+                            <svg class="mr-3 fill-current text-white" xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="M480-120q-150 0-255-105T120-480q0-150 105-255t255-105q14 0 27.5 1t26.5 3q-41 29-65.5 75.5T444-660q0 90 63 153t153 63q55 0 101-24.5t75-65.5q2 13 3 26.5t1 27.5q0 150-105 255T480-120Zm0-80q88 0 158-48.5T740-375q-20 5-40 8t-40 3q-123 0-209.5-86.5T364-660q0-20 3-40t8-40q-78 32-126.5 102T200-480q0 116 82 198t198 82Zm-10-270Z"/></svg>
+                            <span class="hidden dark:inline">Açık Mod</span>
+                            <span class="inline dark:hidden">Koyu Mod</span>
+                        </button>
+                    </div>
+                </ul>
+                
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="flex-auto">
+        <div class="flex flex-col justify-center items-center p-8 bg-gray-400 dark:bg-dark-200 dark:transition-all transition-al">
+            <img src="/src/images/profil.jpeg" alt="Ömer Faruk Aydın Profil Fotoğrafı" class="lg:rounded-full lg:w-1/3 sm:rounded-lg sm:w-3/5">
+            <div class="py-2">
+                <a class="text-white text-4xl px-2 hover:text-gray-500" target="_blank" href="https://www.github.com/oemerfaruk"><i class="fa-brands fa-github"></i></a>
+                <a class="text-white text-4xl px-2 hover:text-gray-500" target="_blank" href="https://www.instagram.com/kahvekokanfizikci"><i class="fa-brands fa-instagram"></i></a>
+                <a class="text-white text-4xl px-2 hover:text-gray-500" target="_blank" href="https://www.twitter.com/ta2kyt"><i class="fa-brands fa-twitter"></i></a>
+            </div>
+            <p class="text-white italic">Yazılım Geliştirici|Eğitmen</p>
+        </div>
+    </section>
+
+    
+    <section id="info" class="flex items-center dark:bg-dark-300 dark:transition-all transition-al">
+        <div class=" text-gray-700 dark:text-white text-center">
+            <h2 class="">Hobilerim</h2>
+            <div class="sm:flex-col lg:flex lg:flex-row lg:space-between lg:items-center ">
+                <article class="text-center">
+                    <i class="fa-solid fa-walkie-talkie"></i>
+                    <h3>Amatör Telsiz</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda aliquid accusamus eius itaque nam ducimus sint explicabo consequatur quod fuga aliquam optio quia, iure eveniet!</p>
+                </article>
+                <article class="text-center">
+                    <i class="fa-solid fa-palette"></i>
+                    <h3>Yağlı Boya</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda aliquid accusamus eius itaque nam ducimus sint explicabo consequatur quod fuga aliquam optio quia, iure eveniet!</p>
+                </article>
+                <article class="text-center">
+                    <i class="fa-solid fa-tent"></i>
+                    <h3>Kamp</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga similique vero ut explicabo aut! Dignissimos quod hic exercitationem quibusdam. Aliquid provident necessitatibus velit possimus. Nisi?</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="bg-gray-400 dark:bg-dark-200 dark:transition-all transition-al">
+        <div class="container mx-auto" >
+            <h2 class="text-gray-900 dark:text-white font-bold pt-10 dark:transition-all transition-al">Projeler</h2>
+            <div class="flex flex-col px-4 py-8">
+                <div class="flex mb-6">
+                    <div class="w-1/2 mr-10">
+                        <img src="https://picsum.photos/300/200" alt="" class="grayscale transition-all hover:md:filter-none">
+                    </div>
+                    <div class="project-info">
+                        <div class="tracking-[1.2px] mb-4 text-gray-700 dark:text-white font-bold dark:transition-all transition-al">
+                            GIRO Analysis
+                        </div>
+                        <div class="tracking-[1.2px] mb-2 text-gray-700 dark:text-white dark:transition-all transition-al">
+                           Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, inventore aspernatur voluptatem sit tempora natus quam et! Eum assumenda deserunt voluptas ea fugiat. Repellendus amet, quod ipsa, eveniet impedit fugiat modi exercitationem nostrum hic corporis sed nesciunt eligendi voluptatum rerum id soluta inventore praesentium nobis, illum suscipit? Explicabo est ea adipisci, iste quaerat repellat ducimus.
+                        </div>
+                        <div class="tracking-[1.2px]">
+                            <a target="_blank" href="https://www.github.com/oemerfaruk">Ömer Faruk Aydın</a>
+                        </div>
+                        <div class="mt-4">
+                            <a target="_blank" href="https://github.com/oemerfaruk/GIRO_Analysis" class="btn bg-color1 hover:bg-color2">Projeye Git</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex mb-6">
+                    <div class="w-1/2 mr-10">
+                        <img src="https://picsum.photos/300/200" alt="" class="grayscale transition-all hover:md:filter-none">
+                    </div>
+                    <div class="project-info">
+                        <div class="tracking-[1.2px] mb-4 text-gray-700 dark:text-white font-bold dark:transition-all transition-al">
+                            GIRO Analysis
+                        </div>
+                        <div class="tracking-[1.2px] mb-2 text-gray-700 dark:text-white dark:transition-all transition-al">
+                           Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, inventore aspernatur voluptatem sit tempora natus quam et! Eum assumenda deserunt voluptas ea fugiat. Repellendus amet, quod ipsa, eveniet impedit fugiat modi exercitationem nostrum hic corporis sed nesciunt eligendi voluptatum rerum id soluta inventore praesentium nobis, illum suscipit? Explicabo est ea adipisci, iste quaerat repellat ducimus.
+                        </div>
+                        <div class="tracking-[1.2px]">
+                            <a target="_blank" href="https://www.github.com/oemerfaruk">Ömer Faruk Aydın</a>
+                        </div>
+                        <div class="mt-4">
+                            <a target="_blank" href="https://github.com/oemerfaruk/GIRO_Analysis" class="btn bg-color1 hover:bg-color2">Projeye Git</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+    <script>
+        function darkMode(){
+            document.documentElement.classList.toggle('dark');
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,41 @@
+body{
+    background-color: antiquewhite;
+}
+
+p{
+    letter-spacing: 5px;
+}
+
+p:first-child{
+    background-color: aqua;
+}
+
+p:nth-child(2){
+    letter-spacing: 15px;
+}
+p:nth-child(5){
+    color: red;
+}
+
+p:last-child{
+    text-align: center;
+}
+
+
+
+ul li:nth-child(2){
+    color: blue;
+}
+ul li:last-child{
+    color: red;
+    font-size: large;
+}
+ul li:nth-child(odd){
+    color: green;
+}
+ul li:nth-child(even){
+    color: red;
+}
+ul li:nth-child(3n-1){
+    color: blue;
+}
