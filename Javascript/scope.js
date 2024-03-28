@@ -40,15 +40,26 @@
 // console.log(a,b,c);
 
 
-var database = 'localhost';
-let db = 'localhost';
+// var database = 'localhost';
+// let db = 'localhost';
 
-console.log(database, db);
+// console.log(database, db);
 
 
-if(true){
-    var database = "192.168.27.55";
-    let db = "1.1.1.1"
-}
+// if(true){
+//     var database = "192.168.27.55";
+//     let db = "1.1.1.1"
+// }
 
-console.log(database, db);
+// console.log(database, db);
+
+
+
+
+// let b = 2;
+
+// while(b<5){
+//     console.log(b);
+//     b++;
+// }
+// console.log("while döngüüsnden çıkıldı",b)
