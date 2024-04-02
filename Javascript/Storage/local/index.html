@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .btn{
+            display: inline-block;
+            padding: 1rem 2rem;
+            border-radius: 5px;
+            background-color: #4CAF;
+            color: white;
+            text-align: center;
+        }
+        .btn:hover{
+            background-color: whitesmoke;
+            color: #4caf;
+            border: 2px solid #4CAF;
+        }
+        .inp{
+            font-size: large;
+            height: 2rem;
+            width: 33%;
+        }
+        .inp-2{
+            font-size: large;
+            height: 2rem;
+            width: 66%;
+            margin-bottom: 1rem ;
+        }
+        form{
+            margin: auto;
+            padding: auto;
+            text-align: center;
+            width: 70%;
+        }
+    </style>
+</head>
+<body>
+    <form action="" id="storage-form">
+
+        <input class="inp" type="text" name="addkey" id="addkey" placeholder="Anahtar">
+        <input class="inp" type="text" name="addvalue" id="addvalue" placeholder="Değer">
+        <br><br>
+        <input class="inp-2" type="text" name="deletekey" id="deletekey" placeholder="Anahtar">
+        <input class="inp-2" type="text" name="searchkey" id="searchkey" placeholder="Anahtar">
+        
+        <br><br>
+
+        <button class="btn" id="add">Ekle</button>
+        <button class="btn" id="delete">Sil</button>
+        <button class="btn" id="clear">Temizle</button>
+        <button class="btn" id="search">Ara</button>
+    </form>
+
+
+    <script src="app.js"></script>
+</body>
+</html>
