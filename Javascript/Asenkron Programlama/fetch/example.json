@@ -1,0 +1,17 @@
+[
+    {
+        "name" : "Ömer Faruk",
+        "surname" : "Aydın",
+        "age" : 26
+    },
+    {
+        "name" : "Hakan",
+        "Surname" : "Karakurt",
+        "age" : 24
+    },
+    {
+        "name": "Affan",
+        "surname" : "Topal",
+        "age" : 24
+    }
+]
